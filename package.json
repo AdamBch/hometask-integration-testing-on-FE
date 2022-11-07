@@ -1,0 +1,29 @@
+{
+  "name": "hometask-integration-testing-on-fe",
+  "packageManager": "yarn@3.2.4",
+  "description": "The hometask integration testing on FE",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamBch/hometask-integration-testing-on-FE.git"
+  },
+  "keywords": [
+    "hometask"
+  ],
+  "author": "abanach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AdamBch/hometask-integration-testing-on-FE/issues"
+  },
+  "homepage": "https://github.com/AdamBch/hometask-integration-testing-on-FE#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.2.2",
+    "jest": "^29.2.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
